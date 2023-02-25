@@ -1,0 +1,30 @@
+{
+  "name": "simple-file-rename",
+  "version": "1.0.0",
+  "description": "批量处理文件名的小应用。可以替换字符，追加字符在文件名前或后，文件名按照序号格式重新命名",
+  "main": "dist/index.js",
+  "bin": {
+    "rename": "dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.1",
+    "@types/node": "^18.14.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "fs-extra": "^11.1.0",
+    "inquire": "^0.4.8"
+  }
+}
