@@ -1,6 +1,6 @@
 {
   "name": "simple-file-rename",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "批量处理文件名的小应用。可以替换字符，追加字符在文件名前或后，文件名按照序号格式重新命名",
   "main": "dist/index.js",
   "bin": {
