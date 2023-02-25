@@ -11,7 +11,8 @@
   ],
   "scripts": {
     "dev": "ts-node index.ts",
-    "build": "tsc -p ./tsconfig.json"
+    "build": "tsc -p ./tsconfig.json",
+    "p": "pnpm version patch && pnpm publish --registry https://registry.npmjs.org"
   },
   "keywords": [],
   "author": "",
